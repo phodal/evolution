@@ -17,7 +17,7 @@
 
 虽然这看上去是一件很难的事，但是也不是一件很难的事。这也不依赖于你是否对某一个技术栈的理解，这只实际上只是学习能力的一种体现。
 
-![todo-example.png](/static/media/uploads/todo-example.png)
+![todo-example.png](images/todo-example.png)
 
 在扯这些废话之前，先让我们来看看我们是如何实现一个功能、应用的。这也是在Growth里提到的Tasking：
 
@@ -67,7 +67,7 @@
 
 而这些只是我得到的结论，每个人都会得到不同听结论的。因而，探索是一件很有意思的事~~，如图：
 
-![civ5-worst.jpg](/static/media/uploads/civ5-worst.jpg)
+![civ5-worst.jpg](images/civ5-worst.jpg)
 
 所以实际上，这一步是去探索一个更广阔的天空。我们需要知道不同的语言和技术栈的一些优势，了解并知道如何去应用即可。
 
@@ -81,15 +81,15 @@
 
 在实际编程的过程中，我们就会遇到很多代码问题。在这时，我们尽管有好的架构，然而并不能从根本上解决问题。只能保证从蓝图上看是对的，而不能导致质量问题。
 
-![better-architecture.jpg](/static/media/uploads/better-architecture.jpg)
+![better-architecture.jpg](images/better-architecture.jpg)
 
 代码的腐烂都是源自于平时的工作习惯问题，而在很多时候是需求导致的。这些看上去就是噩梦——加班，没有时间学习，效率低。没有时间学习，效率低，加班。
 
-![eff-worknight.png](/static/media/uploads/eff-worknight.png)
+![eff-worknight.png](images/eff-worknight.png)
 
 而对于代码质量来说，也是如此的一种循环：
 
-![code-time.png](/static/media/uploads/code-time.png)
+![code-time.png](images/code-time.png)
 
 而在这时可以学的东西可多了，如Bad Smell，重构，设计模式，编写测试等等。
 
@@ -118,7 +118,7 @@
 
 当我们有了一个好的Idea，一个好的架构以及一份良好的代码，并且我们还能将其执行下去。那么，我们还需要什么？
 
-![what-is-growth-hacking.jpg](/static/media/uploads/what-is-growth-hacking.jpg)
+![what-is-growth-hacking.jpg](images/what-is-growth-hacking.jpg)
 
 这也是我现在正在尝试的领域，也是过去我想做的，但是却找不到一个好的方向。后来，想了想就有了Growth这个APP。毕竟从一个领域到一个新的领域，最好是通过现有的领域作为过渡。
 
@@ -132,7 +132,7 @@
 
 在那之前你需要明白的一点是，你要成为一个怎样的人？是行业的专家？还是领域的专家？等等！
 
-![cat-interest.jpg](/static/media/uploads/cat-interest.jpg)
+![cat-interest.jpg](images/cat-interest.jpg)
 
 我想的是一直可以做一些有趣的事，单纯深入一个垂直领域对我来说太枯燥了。对于我来说，我只会在造轮子的时候去研究一个轮子。而不是深入研究某个轮子，我会得到造某种轮子的方法。我只会在创造一些有意思的东西的时候，才会深入某个领域去学习。而不是为了深入某个领域，再去学习这个领域的知识 。。
 
