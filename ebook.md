@@ -518,16 +518,10 @@ virtual-dom可以说由下面几部分组成的：
 Chrome插件篇
 ---
 
-外设篇
----
-
 Ops
 ---
 
 硬件篇
----
-
-API
 ---
 
 CLI
@@ -537,8 +531,3 @@ tree
 sl
 cURL
 
-Backend
----
-
-科学
----
