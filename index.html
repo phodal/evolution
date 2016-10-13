@@ -6,6 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title>增长工程师修炼之道 – </title>
   <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
   <link rel="stylesheet" href="style.css">
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -84,7 +121,7 @@
 <li><a href="#开始记录你的问题idea">开始记录你的问题/Idea</a></li>
 </ul></li>
 <li><a href="#造轮子">造轮子</a><ul>
-<li><a href="#并非得自己去造所有的轮子">并非得自己去造所有的轮子</a></li>
+<li><a href="#从github生成轮子">从GitHub生成轮子</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#专业">专业</a><ul>
@@ -339,9 +376,8 @@
 <p>对于上面的例子来说也是相似的，我们已经有了旧有的技术模式，只是现在我们有了新的业务。新的业务可以匹配到我们旧有的技术框架里，旧的技术框架可以得到复用。</p>
 <h4 id="渐进式创新">渐进式创新</h4>
 <p>渐进式创新是一件很有意思的事，他已经和我们上面提到的“减法”相矛盾了。但是这一点似乎就是很多软件的盈利点所在——通过添加新的功能来赚钱。这也是一个非常容易理解的点，你只需要添加一些新的特性即可。不过，我想这一点已经到处都用到了，没啥说的~~。</p>
-<p>这一次我们要做的Hack便是对两年前的一个Idea进行改进。</p>
-<p>之前，我们（我当时是实时生，只是在打酱油~~）用WebRTC、Arduino、Android手机、四轮小车作了一个小机器人。我们搭建了一个WebRTC的Server，手机与四轴小车做了一个漫游者，然后你可以在网页上看到小车看到的东西，并且你还可以在通过WebSocket在网页上操作他。</p>
-<p>而我们的新Idea，便是用Oculus替换掉浏览器——我们可以用Oculus来观看远程的画面，当然还应该可以移动。尽管改变看上去很少，但是还是充满了技术挑战——详情见下回分解。</p>
+<p>在一次Hackday里，我们（我当时是实时生，只是在打酱油~~）用WebRTC、Arduino、Android手机、四轮小车作了一个小机器人。我们搭建了一个WebRTC的Server，手机与四轴小车做了一个漫游者，然后你可以在网页上看到小车看到的东西，并且你还可以在通过WebSocket在网页上操作他。</p>
+<p>而我们的新Idea，便是用Oculus替换掉浏览器——我们可以用Oculus来观看远程的画面，当然还应该可以移动。尽管改变看上去很少，但是还是充满了技术挑战。</p>
 <p>而这也是多数产品的一种路线，而这是这种路线让一个又一个的程序员加班。因为Idea本身不一定可靠，没有人能保证他们的想法一定可行。但是如果程序员不是那个出Idea的人，那么就只能任人宰割了。渐进式创新是很保守的技术创新，在现有的产品的基础上加以改进——算是加法创新。</p>
 <h3 id="开始记录你的问题idea">开始记录你的问题/Idea</h3>
 <p>记得在那篇《<a href="https://www.phodal.com/blog/use-github-manage-idea/">如何去管理你的Idea</a>》中，我们提到了用GitHub来管理Idea的想法。但是在上面记录的都是一些公开式的Idea，我们可以记录一些相似的问题。除此，我们还有一些更好的工具。</p>
@@ -357,7 +393,92 @@
 </figure>
 <p>想法先记下来，然后再说~~。</p>
 <h2 id="造轮子">造轮子</h2>
-<h3 id="并非得自己去造所有的轮子">并非得自己去造所有的轮子</h3>
+<p>造轮子是一种快速的学习方式，而还有一种进阶则可以是从Github中生成轮子。</p>
+<h3 id="从github生成轮子">从GitHub生成轮子</h3>
+<p>使用GitHub来生成轮子，简单来说就是：</p>
+<ol type="1">
+<li><p>查看很多Github项目的源码及提交历史</p></li>
+<li><p>写胶水代码生成自己的框架</p></li>
+</ol>
+<p>在这里分享之前造的几个轮子的过程：</p>
+<h4 id="spa框架">SPA框架</h4>
+<p>两年多以前，当时我们项目用的技术栈是：<strong>Backbone</strong> + <strong>Mustache</strong> + <strong>jQuery。</strong>在我们当时的环境下，主要组成有：</p>
+<ol type="1">
+<li>Backbone提供了一个Router<br />
+</li>
+<li>Mustache提供了模板<br />
+</li>
+<li>jQuery抽象了DOM<br />
+</li>
+<li>Ajax请求</li>
+</ol>
+<p>所以，这就是我造的第一个轮子的重要组成部分。</p>
+<p>接着，我就开始造轮子了：我称呼这个框架为Lettuce, <a href="//link.zhihu.com/?target=https%3A//github.com/phodal/lettuce">GitHub - phodal/lettuce: Mobile Framework for Romantic. 简约的移动开发框架</a>。</p>
+<p>我参考了一本名为《Building A JavaScript Framework 》的电子书，以及《JavaScript框架设计》一书。因为没有任何框架的设计经验，所以只好试图按照书上的一点一滴来进行。在这个过程中，我开始深入JavaScript。</p>
+<p>从 [https://github.com/munro/self) 这个库中，我开始创建了自己的类的用法。</p>
+<p>接着，开始写Ajax，照例还是参考了jQuery和Zepto的代码。同样的还有Event、Promise等等的一些类。</p>
+<p>然后就是Router，源码来自于：https://krasimirtsonev.com/blog/article/A-modern-JavaScript-router-in-100-lines-history-api-pushState-hash-url，又参考了早期的Backbone代码。</p>
+<p>以及模板引擎，照例代码也不全是我写的，用的是http:////ejohn.org/blog/javascript-micro-templating/</p>
+<p>最后就是一个简单的PageView:</p>
+<div class="sourceCode"><pre class="sourceCode javascript"><code class="sourceCode javascript">    <span class="kw">var</span> SimpleView <span class="op">=</span> <span class="kw">new</span> <span class="va">Lettuce</span>.<span class="va">prototype</span>.<span class="at">Class</span>(<span class="op">{}</span>)<span class="op">;</span>
+
+    <span class="va">SimpleView</span>.<span class="va">prototype</span>.<span class="at">init</span> <span class="op">=</span> <span class="kw">function</span> () <span class="op">{};</span>
+
+    <span class="va">SimpleView</span>.<span class="va">prototype</span>.<span class="at">render</span> <span class="op">=</span> <span class="kw">function</span> (template<span class="op">,</span> elementId) <span class="op">{</span>
+        <span class="va">document</span>.<span class="at">getElementById</span>(elementId).<span class="at">innerHTML</span> <span class="op">=</span> template<span class="op">;</span>
+    <span class="op">};</span>
+
+    <span class="kw">var</span> simpleView <span class="op">=</span> <span class="op">{</span>
+        <span class="dt">SimpleView</span><span class="op">:</span> SimpleView
+    <span class="op">};</span>
+
+    <span class="va">Lettuce</span>.<span class="at">prototype</span> <span class="op">=</span> <span class="va">Lettuce</span>.<span class="at">extend</span>(<span class="va">Lettuce</span>.<span class="at">prototype</span><span class="op">,</span> simpleView)<span class="op">;</span></code></pre></div>
+<p>这其中最复杂的部分就是结合别人的代码，换句话来说，就是<strong>写胶水代码</strong>。Blabla，最后我就有了一个SPA框架。</p>
+<p>相关文章：<a href="https://www.phodal.com/blog/build-javascript-framework-init-project/">一步步搭建JavaScript框架——初始化项目</a></p>
+<p><strong>不过，这其中参考了几十个框架，这点对提升自己很重要。</strong></p>
+<h4 id="slide框架">Slide框架</h4>
+<p>八个多月前，当时的情形是我需要有一个可以定时放映地Slide框架，而当时大部分的框架都不能满足我的要求。</p>
+<p>实际上我只需要一个定时的功能，而Impress的最新代码又太复杂了。</p>
+<p>接着，我看了Github上的提交历史，我发现挺简单的，就自己创一个新的框架，称为<a href="https://github.com/phodal/echoesworks">GitHub - phodal/echoesworks: Next-Generation Tech Blog/Presentation/Slider Framework</a>。</p>
+<p>我需要下面的一些元素：</p>
+<ol type="1">
+<li>Markdown解析器<br />
+</li>
+<li>Slide框架<br />
+</li>
+<li>Github代码显示<br />
+</li>
+<li>进度条</li>
+</ol>
+<p>同样的，我在Github上搜索不同的组件，最后再把他们结合到一起。</p>
+<p>相关文章：</p>
+<ol type="1">
+<li><a href="https://www.phodal.com/blog/build-echoesworks/">EchoesWorks —— 打造下一代技术Blog/Presentation 框架</a><br />
+</li>
+<li><a href="https://www.phodal.com/blog/build-echoesworks-use-localstorage-commucation-in-tab/">EchoesWorks构建: LocalStorage与跨Tab通信</a></li>
+</ol>
+<p>接着，我又造了不同的几个框架：</p>
+<ol type="1">
+<li><a href="https://github.com/phodal-archive/geng">GitHub - phodal-archive/geng: DSL Step 1 —— Parse: 天干物燥，小心火烛</a><br />
+</li>
+<li><a href="https://github.com/phodal-archive/tile.js">GitHub - phodal-archive/tile.js: a pure javascript tiled map render</a><br />
+</li>
+<li><a href="https://github.com/phodal/resume">GitHub - phodal/resume: RESUME Generator</a></li>
+</ol>
+<p>随着造的轮子越来越多，写胶水代码的能力越来越强，我就开始创造一些更有意思的轮子。</p>
+<h4 id="三luffa">三、Luffa</h4>
+<p>Luffa是最近造的一个轮子，对于不写测试的人来说可能没有那么有意思。</p>
+<p>我称其为基于Virtual DOM与Diff DOM的测试代码生成，<a href="//link.zhihu.com/?target=https%3A//github.com/phodal/luffa">GitHub - phodal/luffa: A Test Framework Helper for Fun</a></p>
+<p>当时我们项目用的是Jasmine和Jasmine jQuery作为测试框架。在写测试的时候，觉得看起来太麻烦了，就想着写一个框架来Diff DOM的变化。</p>
+<p>然后就是Virtual DOM那些东西了。</p>
+<p>virtual-dom可以说由下面几部分组成的：</p>
+<ol type="1">
+<li>createElement，用于创建virtual Node。</li>
+<li>diff，顾名思义，diff算法。</li>
+<li>h，用于创建虚拟树的DSL——HyperScript。HyperScript是一个JavaScript的HyperText。</li>
+<li>patch，用于patch修改的内容。</li>
+</ol>
+<p>所以，我们可以很容易地创建出一个这样的框架来Diff测试中DOM元素的修改。</p>
 <blockquote>
 <p>EchoWorks</p>
 </blockquote>
