@@ -1,6 +1,12 @@
 Growth：增长工程师修炼之道
 ===
 
+同名系列开源电子书：
+
+[Growth: 全栈增长工程师指南](https://github.com/phodal/growth-ebook)
+
+[Growth: 全栈增长工程师实战](https://github.com/phodal/growth-in-action)
+
 > 编程、写作、设计
 
 目录
