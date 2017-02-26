@@ -9,6 +9,10 @@ Growth：增长工程师修炼之道
 
 > 编程、写作、设计
 
+关注我的微信公众号（扫描下面的二维码或搜索 Phodal）.
+
+![QRCode](./marketing/wp.jpg)
+
 目录
 ---
 
