@@ -499,7 +499,7 @@ Web应用前台:
 
 既使你有一定的工作经验，也是如此。而在这时，有一个东西会影响你的工作与休息的时间，即心流：
 
-![心流](../images/flow-basic.jpeg)
+![心流](images/flow-basic.jpeg)
 
 当然，这是可遇不可求的，就好比是你和你的女神聊在一起了一样。
 
@@ -529,7 +529,7 @@ Web应用前台:
 
 GitHub Trending 在这方面做得特别好，有一个项目的名称和简介，只需要看一眼就够了：
 
-![Growth](../images/github-trending.png)
+![Growth](images/github-trending.png)
 
 能打开项目的，说明你是有兴趣的~~，加入你的 TodoLists 吧，如下：
 
@@ -545,7 +545,7 @@ GitHub Trending 在这方面做得特别好，有一个项目的名称和简介�
 
 微博上关注了几个新浪微博的员工，然后每天看他们发微博，要么吐槽“渣浪食堂”。
 
-![微博食堂](../images/weibo.jpg)
+![微博食堂](images/weibo.jpg)
 
 要么吐槽时间线。
 
@@ -1044,11 +1044,11 @@ virtual-dom可以说由下面几部分组成的：
 
 这个嘛，我觉得应该是这样的：
 
-![Phodal](../images/show-me-code.jpg)
+![Phodal](images/show-me-code.jpg)
 
 然后呢，HR 只需要打开这个 PDF 中的 GitHub 链接即可：
 
-![Phodal's GitHub](../images/phodal-github.jpg)
+![Phodal's GitHub](images/phodal-github.jpg)
 
 这才叫优秀嘛，你说是不是？
 
@@ -1066,7 +1066,7 @@ virtual-dom可以说由下面几部分组成的：
 
 **使用 PDF 以外的格式**，如PPT、DOCX、HTML。PDF 是我目前看到兼容性最好的格式，要知道 Windows 上写的 TXT 在 Mac OS 上打开都会有编码问题。DOCX 就更不用说了，我司标配的 Office 是 LibreOffice，打开的文件 100% 出问题。PPT 我就不说了，虽然很帅，但是我很累——**要面试的人是你，不是我**。
 
-![PPT Resume](../images/ppt-resume.png)
+![PPT Resume](images/ppt-resume.png)
 
 呵呵~
 
@@ -1084,7 +1084,7 @@ virtual-dom可以说由下面几部分组成的：
 
 **罗列技术栈**。不要在简历上，写上太多的无关技术栈。**写到简历上的东西，都会成为你的呈堂证供。**如我毕业的时候，准备了三种不同类型的简历，嵌入式工程师的、Web 工程师的、包含两者的。然后在**专业技能**上，我列举了我玩过的各个东西。在现在看来，简直是。。。
 
-![罗列技术栈](../images/list-skills.png)
+![罗列技术栈](images/list-skills.png)
 
 简直是作死。当年，我写在简历上的每一个内容，**都被一一过问了一遍**。
 
@@ -1105,7 +1105,7 @@ virtual-dom可以说由下面几部分组成的：
 
 然后推荐下我用的模板，LaTex 里的 **modercv** 模板。就是这样的效果：
 
-![LaTex简历模板](../images/modercv.png)
+![LaTex简历模板](images/modercv.png)
 
 这个模板最大的优点是，写废话的地方很少。最大的缺点是：你需要学习 LaTex。你可以轻松地写上你的各种经历，并且排版出来的效果很不错。
 
@@ -1119,7 +1119,7 @@ virtual-dom可以说由下面几部分组成的：
 
 你刚毕业不久的时候，你应该突出你在学校的成果：
 
-![在校情况](../images/resume-in-school-with-exp.jpg)
+![在校情况](images/resume-in-school-with-exp.jpg)
 
 工作的时候，便是突出你的公司，和 NB 的项目。
 
@@ -1127,7 +1127,7 @@ virtual-dom可以说由下面几部分组成的：
 
 校招的时候，你可以把你在学校玩过的各种东西都写在上面，如下：
 
-![学校简历](../images/resume-in-school.jpg)
+![学校简历](images/resume-in-school.jpg)
 
 就是要把你玩过的、觉得很 High 的东西都往上写。毕竟大部分人都是玩游戏过来的，然后你还玩过这么多东西，面试官对你的印象一定特定好。不过，还是那一点，**不要造假**——写到简历上的东西，都会成为你的呈堂证供。作为一个 Play for Fun 的程序员，谁的大家不是这么玩过来的。
 
