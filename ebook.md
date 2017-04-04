@@ -195,9 +195,12 @@
 
 我尚不属于那些技术特别好的人——我只是广度特别广，从拿电烙铁到所谓的大数据。不过相比于所谓的大数据，我想我更擅长于焊电路板，笑~~。由于并非毕业于计算机专业，毕业前的实习过程中，我发现在某些特殊领域的技术比不上科班毕业的人，这意味着需要更多的学习。但是后来受益于工作近两年来从没有加班过，朝九晚六的生活带来了大量的学习时间。在这个漫长的追赶过程中，我发现开发博客相关的应用带来了很大的进步。
 
-## 现在，我的博客是如何工作的？
+我的博客
+---
 
-### HTTP服务器
+### 现在，我的博客是如何工作的？
+
+#### HTTP服务器
 
 当你开发在网页上访问我的博客的时候，你可能会注意到上面的协议是HTTPS。
 
@@ -209,7 +212,7 @@
 
 Nginx对请求转发给了某个端口，就来到了WSGI。
  
-### WSGI
+#### WSGI
 
 接着，我们就来到了Web服务器网关接口——是为Python语言定义的Web服务器和Web应用程序或框架之间的一种简单而通用的接口。现在，你或许已经知道了这个博客是基于Python语言的框架。但是在我们揭晓这个答案之前，我们还需要介绍个小工具——New Relic。如果你在Chrome浏览器上使用Ghosty插件，你就会看到下面的东西。
 
@@ -225,7 +228,7 @@ nohup /PATH/bin/newrelic-admin run-program /PATH/bin/gunicorn --workers=2 MK_dre
 
 过了上面几步这个请求终于交给了Django。
 
-###Django
+#### Django
 
 Django这个天生带Admin的Web框架，就是适合CMS和博客。这并不意味着它的工作范围只限于此，它还有这么多用户:
 
@@ -235,7 +238,7 @@ Django这个天生带Admin的Web框架，就是适合CMS和博客。这并不意
 
 它也可以用Farbic部署哦~~。
 
-### Angluar & Material Design Lite vs Bootstrap & jQuery Mobile
+#### Angluar & Material Design Lite vs Bootstrap & jQuery Mobile
 
 这是一个现代浏览器的前端战争。最开始，博客的前端是Bootstrap框架主导的UI，而移动端是jQuery Mobile做的(PS: Mezzanine框架原先的结构)。
 
@@ -249,7 +252,7 @@ Django这个天生带Admin的Web框架，就是适合CMS和博客。这并不意
 
 作为一个技术博客，它也用到了HighLight.js的语法加亮。
 
-### API
+#### API
 
 在构建SPA的时候，做了一些API，然后就有了一个Auto Sugget的功能：
 
@@ -259,7 +262,7 @@ Django这个天生带Admin的Web框架，就是适合CMS和博客。这并不意
 
 或许你已经猜到了，既然我们已经有博客详情页和列表页的API，并且我们也已经有了Auto Suggestion API。那么，我们就可以有一个APP了。
 
-### APP
+#### APP
 
 偶然间发现了Ionic框架，它等于 = Angluar + Cordova。于是，在测试Google Indexing的时候，花了一个晚上做了博客的APP。
 
@@ -282,7 +285,7 @@ Django这个天生带Admin的Web框架，就是适合CMS和博客。这并不意
 对了，如果你用Python写代码，可以试试PyCharm。除了WebStorm以外，我最喜欢的IDE。因为WebStorm一直在与时俱进。
 
 
-## 技术组成
+### 技术组成
 
 So，在这个博客里会有三个用户来源，Web > 公众号 > App。
 
@@ -329,6 +332,15 @@ Web应用前台:
 微信端: 
 
 1. Wechat-Python-SDK
+
+数据分析与收集
+---
+
+### Google Analytics & WebMaster
+
+### APM: New Relic
+
+
 
 深入理解原理
 ===
