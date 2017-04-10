@@ -459,13 +459,13 @@ dojo，（日语：道场）。在西方世界，dōjō 一词主要指的是一
 
 如果你了解过结对编程的话，可能就会对两个人的结对过程比较感兴趣。按我的理解，结对编程存在着三种不同的阶段：teaching（引入门），driver-navigator（有经验与新手），结对（有经验与有经验）。即在实现功能的时候，两个人会轮流写测试和实现功能——你先写测试，我实现功能，然后换角色。而 Dojo 就是一堆人在轮流写代码：
 
-![Dojo](images/agile-dojo.jpg)
+![Dojo](https://phodal.github.io/growth-engineer/images/agile-dojo.jpg)
 
 即在有限的时间里，每个人上去实现同一功能的代码。
 
 如，A 实现了测试，B 上去实现业务，C 上来重构。D 上来看了看，你们写的代码都是 xx，于是 Revert 之前写的代码。可惜 D 的时间也只有七分钟，所以 E 上来 Revert Revert。。。
 
-![Git revert revert](images/git-revert.png)
+![Git revert revert](https://phodal.github.io/growth-engineer/images/git-revert.png)
 
 笑~~
 
@@ -474,13 +474,11 @@ dojo，（日语：道场）。在西方世界，dōjō 一词主要指的是一
 
 限于之前已经有相当多的文章，介绍练习相关的技巧，如：
 
- - 《Github 365天: 给你一年的时间，你会怎样去提高你的水平》
- - 《我的成长四步曲》
- - 《我并不聪明，只是多练习和思考》
+ *  《[GitHub连击500天:让理想的编程成为习惯](https://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=404434547&idx=1&sn=a68b9b1c37b3e7b3f3f9574d6d5a140d&scene=21#wechat_redirect)》
+ *  《[关于编程，你的练习是不是有效的？](https://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652973649&idx=1&sn=baee962481ae6c28e0af83bd1b059120&scene=21#wechat_redirect)》 
+ *  《[我的成长四步曲](https://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652973579&idx=2&sn=ff167c628bb8339515b4c7931dc605cb&scene=21#wechat_redirect)》
+ * 《[我并不聪明，只是多练习和思考](https://mp.weixin.qq.com/s?__biz=MjM5Mjg4NDMwMA==&mid=2652973461&idx=1&sn=a499f4594436c853ae3d1fa88155cc7c&scene=21#wechat_redirect)》
 
-这里就先略过去了~~，有兴趣的读者可以阅读上面的内容。总之，就是 GitHub 的一张图啦：
-
-![GitHub 365](images/github-365.png)
 
 假想项目的重构
 ---
